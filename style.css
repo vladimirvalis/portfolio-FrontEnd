@@ -11,9 +11,16 @@
     margin: 0%;
 }
 
-.btn-edit{
-    height: 1%;
-    width: 1%;
+.btn-edit, .btn-eliminar{
+    height: 1.25%;
+    width: 1.25%;
+    float: right;
+    margin: 0.4rem 0.4rem;
+
+}
+
+p {
+    display: inline;
 }
 
 #img-banner{
@@ -26,8 +33,11 @@
     margin-top: 1%;
 }
 
-.acerca-de{
+.acerca-de, .experiencia, .educacion, .skills, .proyectos{
+    margin: 1%;
     padding: 1%;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
 }
 
 #descripcion{
@@ -36,4 +46,14 @@
 
 p{
     margin: auto, 5px;
+}
+
+.skills-titulos{
+    text-align: center;
+}
+
+.progress {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
