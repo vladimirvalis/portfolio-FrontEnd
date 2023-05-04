@@ -12,28 +12,33 @@
 }
 
 .btn-edit, .btn-eliminar{
-    height: 1.25%;
-    width: 1.25%;
-    float: right;
-    margin: 0.4rem 0.4rem;
+    width: 21px;
+    height: 21px;
+}
 
+#btn-edit-skill{
+    margin-left: calc(100% - 265px);
+}
+
+#btn-eliminar-skill{
+    margin-left: 10px;
 }
 
 p {
-    display: inline;
+    margin-bottom: 0;
 }
 
 #img-banner{
-    width: 98%;
+    width: 100%;
     height: 1%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px 10px 0 0;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 30px 30px 0 0;
     margin-top: 1%;
 }
 
-.acerca-de, .experiencia, .educacion, .skills, .proyectos{
+.experiencia, .educacion, .skills, .proyectos, .acerca-de{
     margin: 1%;
     padding: 1%;
     border-radius: 10px;
@@ -44,16 +49,19 @@ p {
     font-size: small;
 }
 
-p{
-    margin: auto, 5px;
-}
-
-.skills-titulos{
-    text-align: center;
-}
-
 .progress {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.skills-titulos {
+    display: flex;
+    text-align: left;
+    width: 230px;
+    white-space: nowrap;
+}
+
+.skills-container {
+    display: flex;
 }
