@@ -12,8 +12,10 @@
 }
 
 .btn-edit, .btn-eliminar{
-    width: 21px;
-    height: 21px;
+    width: 12px;
+    height: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 #btn-edit-skill{
