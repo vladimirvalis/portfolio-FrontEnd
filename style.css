@@ -51,6 +51,17 @@ p {
     font-size: small;
 }
 
+.acerca-de-container h3{
+    text-align: left;
+    margin-right: 0;
+    display: inline-flex;
+}
+
+.acerca-de-container img{
+    float: right;
+    overflow: hidden
+}
+
 .progress {
     width: 75%;
     margin-left: auto;
