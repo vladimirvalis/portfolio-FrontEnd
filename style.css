@@ -32,6 +32,17 @@ p {
     margin-top: 1%;
 }
 
+#foto-perfil {
+    margin-top: -100px;
+    margin-bottom: 1%;
+    width: 150px;
+    border-radius: 150px 150px 150px 150px;
+}
+
+#btn-edit-perfil {
+    float: none;
+}
+
 .experiencia, .educacion, .skills, .proyectos, .acerca-de{
     margin: 1%;
     padding: 1%;
@@ -64,4 +75,9 @@ h3, h5, .experiencia-container h3, .skills-titulos{
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.skills p, .skills img{
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
